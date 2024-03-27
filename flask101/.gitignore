@@ -1,0 +1,11 @@
+.env
+
+.flaskenv
+
+**/__pycache__/
+
+venv
+
+.idea
+
+logs
