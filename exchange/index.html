@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Exchange Rate Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h3>Exchange Rate Calculator</h3>
+        </div>
+        <div class="currency">
+            <select id="currency-one">
+                <option value="TWD">TWD</option>
+                <option value="JPY">JPY</option>
+                <option value="USD">USD</option>
+            </select>
+            <input type="number" id="amount-one" placeholder="0" value="1">
+        </div>
+        <div class="content">
+            <button class="btn" id="swap">Swap</button>
+            <div class="rate" id="rate"></div>
+        </div>
+        <div class="currency">
+            <select id="currency-two">
+                <option value="USD">USD</option>
+                <option value="JPY">JPY</option>
+                <option value="TWD">TWD</option>
+            </select>
+            <input type="number" id="amount-two" placeholder="0">
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
