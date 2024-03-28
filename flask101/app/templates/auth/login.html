@@ -7,7 +7,7 @@
             <div class="card mx-auto custom-card">
                 <div class="card-header text-center p-5 custom-font">Microblog</div>
                 <div class="card-body">
-                    <form action="{{ url_for('login') }}" method="post">
+                    <form action="{{ url_for('auth.login') }}" method="post">
                         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
                         <div class="form-group">
                             <input type="text" class="form-control" name="username" id="username" placeholder="User"
@@ -21,13 +21,13 @@
                             in</button>
                     </form>
                     <div class="text-center mt-3">
-                        <a href="{{ url_for('reset_password_request') }}">忘記密碼？</a>
+                        <a href="{{ url_for('auth.reset_password_request') }}">忘記密碼？</a>
                     </div>
                 </div>
             </div>
             <div class="card text-center mt-3 custom-card">
                 <div class="card-body">
-                    <p class="mb-0">沒有帳號嗎？<a href="{{ url_for('register') }}">註冊</a></p>
+                    <p class="mb-0">沒有帳號嗎？<a href="{{ url_for('auth.register') }}">註冊</a></p>
                 </div>
             </div>
         </div>
