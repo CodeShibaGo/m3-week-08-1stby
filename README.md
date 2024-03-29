@@ -1,12 +1,13 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/WJPO8wpR)
-# Week 8 
+
+# Week 8
 
 ## JS Projects
 
-|  #  |    Project     | Demo |
-| :-: | :------------: | :---: |
-| 01  | Youtube API 串接 | Demo |
-| 02  | 匯率轉換 API 串接 | Demo |
+|  #  |      Project      |                        Demo                        |
+| :-: | :---------------: | :------------------------------------------------: |
+| 01  | Youtube API 串接  | https://1stby.github.io/m3-week-08-1stby/youtube/  |
+| 02  | 匯率轉換 API 串接 | https://1stby.github.io/m3-week-08-1stby/exchange/ |
 
 ## MiniBlog 實作清單
 

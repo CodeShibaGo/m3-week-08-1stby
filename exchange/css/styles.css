@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container .head {
+    margin-bottom: 50px; 
+}
+.container .head h3{
+    text-align: center;
+    color: #82bd69;
+}
+.currency{
+    margin: 20px 0;
+}
+.currency input{
+    border: none;
+    text-align: end;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .btn{
+    margin-right: auto;
+    background-color: #82bd69;
+    color: #bfdbfe;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 2px 2px;
+}
+.content .rate{
+    color: #82bd69;
+    font-size: 10px;
+}

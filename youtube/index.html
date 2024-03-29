@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Search Videos</h1>
+            <p>Search all Youtube Videos</p>
+        </header>
+        <section>
+            <form id="search-form" class="search-form">
+                <div class="search-container">
+                    <input type="search" id="query" class="search-input" placeholder="Search Youtube.." />
+                    <input type="submit" id="search-btn" class="search-btn" value="" />
+                </div>
+            </form>
+            <ul id="results"></ul>
+            <div id="buttons"></div>
+        </section>
+        <footer>
+            <small>Copyright © 2021, All Right Reserved</small>
+        </footer>
+    </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+
+</html>

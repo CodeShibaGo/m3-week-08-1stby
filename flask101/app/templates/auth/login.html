@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card mx-auto custom-card">
+                <div class="card-header text-center p-5 custom-font">Microblog</div>
+                <div class="card-body">
+                    <form action="{{ url_for('auth.login') }}" method="post">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="username" id="username" placeholder="User"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control mt-3" name="password" id="password"
+                                placeholder="Password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 btn-block mt-4">Log
+                            in</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <a href="{{ url_for('auth.reset_password_request') }}">忘記密碼？</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-center mt-3 custom-card">
+                <div class="card-body">
+                    <p class="mb-0">沒有帳號嗎？<a href="{{ url_for('auth.register') }}">註冊</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
